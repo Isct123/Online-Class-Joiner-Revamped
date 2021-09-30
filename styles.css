@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    background-image: url("https://wallpaperaccess.com/full/160807.jpg") ;
+    background-size: cover;
+}
+.LinkButton{
+    margin-right:10px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    background-color:orange;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+    border-radius: 5px;
+}
+.LinkButton:hover{
+    background-color:yellow;
+    transition: 1.3s;
+    cursor: pointer;
+}
+.header{
+    background-color:red;
+    font-family: 'Roboto', 'sans-serif';
+    text-align:center;
+    margin: 0px auto;
+    width: fit-content;
+    padding: 0px 10px;
+}
+#links{
+    text-align:center;
+}
+#timetableframe{
+    position: relative;
+    height: 550px;
+}
+#timetable{
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px auto;
+    width: fit-content;
+    border-image: url()
+}

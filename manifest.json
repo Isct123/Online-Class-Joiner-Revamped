@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Online Class Joiner",
+    "description": "Join your online classes with ease",
+    "version":"1.0.0",
+    "icons": {"128":"Browser_Icon.PNG"},
+    "browser_action": {
+        "default_icon": "Browser_Icon.PNG",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
